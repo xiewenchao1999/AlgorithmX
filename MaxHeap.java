@@ -104,4 +104,18 @@ public class MaxHeap {
             i = max;
         }
     }
+
+    /**
+     * 构造方法 根据输入列表建堆，通过遍历堆化实现建堆
+     * 时间复杂度 O(n)
+     * @param nums 列表
+     */
+    MaxHeap(List<Integer> nums) {
+        // 将列表元素原封不动添加进堆
+        maxHeap = new ArrayList<>(nums);
+        // 堆化除叶节点以外的其他所有节点
+        for (int i = parent(size() - 1); i >= 0; i--) {
+            siftDown(i);
+        }
+    }
 }
