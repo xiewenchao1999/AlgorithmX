@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,7 +66,7 @@ public class binaryTreeArray {
 
     /**
      * 层序遍历
-     * @return  list
+     * @return  src.list
      */
     public List<Integer> levelOrder() {
         List<Integer> res = new ArrayList<>();
@@ -101,7 +103,7 @@ public class binaryTreeArray {
 
     /**
      * 前序遍历
-     * @return  list
+     * @return  src.list
      */
     public List<Integer> preOrder() {
         List<Integer> res = new ArrayList<>();
@@ -111,7 +113,7 @@ public class binaryTreeArray {
 
     /**
      * 中序遍历
-     * @return  list
+     * @return  src.list
      */
     public List<Integer> inOrder() {
         List<Integer> res = new ArrayList<>();
@@ -121,7 +123,7 @@ public class binaryTreeArray {
 
     /**
      * 后序遍历
-     * @return  list
+     * @return  src.list
      */
     public List<Integer> postOrder() {
         List<Integer> res = new ArrayList<>();

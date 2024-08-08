@@ -1,3 +1,5 @@
+package src;
+
 public class hashSimple {
     private final int MODULUS = 1000000007;
 

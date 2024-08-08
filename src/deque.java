@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -184,7 +186,7 @@ class LinkedListDeque {
 
     /**
      * 返回数组
-     * @return  array
+     * @return  src.array
      */
     public int[] toArray() {
         LinkedListNode node = front;
@@ -331,7 +333,7 @@ class ArrayDeque {
 
     /**
      * 返回数组
-     * @return  array
+     * @return  src.array
      */
     public int[] toArray() {
         // 仅转换有效长度范围内的列表元素

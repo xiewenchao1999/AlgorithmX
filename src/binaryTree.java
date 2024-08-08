@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -23,7 +25,7 @@ public class binaryTree {
         n3.right = n7;
 
         /*
-        TreeNode P = new TreeNode(0);
+        src.TreeNode P = new src.TreeNode(0);
         // 在 n1->n2 中间插入节点 P
         n1.left = P;
         P.left = n2;
@@ -31,7 +33,7 @@ public class binaryTree {
         n1.left = n2;
         */
 
-//        List<Integer> list = Traversal.levelOrder(n1);
+//        List<Integer> src.list = src.Traversal.levelOrder(n1);
         Traversal.preOrder(n1);
         System.out.println(Traversal.list);
     }
